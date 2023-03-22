@@ -2,14 +2,15 @@ package org.example.repository;
 
 import org.example.domain.Entity;
 
+import java.sql.SQLException;
 import java.util.List;
 
 public interface Repository<T extends Entity> {
-    void push();
+    void push(T item) throws SQLException;
 
     List<T> get(Integer id);
 
-    List<T> get(RepositoryFilter filter);
+    List<T> get(RepositoryFilter<T> filter) throws SQLException;
 
     List<T> getAll();
 
@@ -17,5 +18,5 @@ public interface Repository<T extends Entity> {
 
     int delete(Integer id);
 
-    int delete(RepositoryFilter filter);
+    int delete(RepositoryFilter<T> filter);
 }

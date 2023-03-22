@@ -1,4 +1,7 @@
 package org.example.repository;
 
-public interface RepositoryFilter {
+import org.example.domain.Entity;
+
+public interface RepositoryFilter<T extends Entity> {
+    public String getSql();
 }
