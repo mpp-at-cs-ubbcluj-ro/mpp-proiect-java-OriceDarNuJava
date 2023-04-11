@@ -51,7 +51,7 @@ public class TripRepositoryDB implements Repository<Trip> {
             String source = rs.getString("source");
             String destination = rs.getString("destination");
             Timestamp timestamp = rs.getTimestamp("when");
-            LocalDateTime when = LocalDateTime.of(timestamp.getYear(), timestamp.getMonth(), timestamp.getDay(), timestamp.getHours(), timestamp.getMinutes(), timestamp.getSeconds());
+            LocalDateTime when = LocalDateTime.of(timestamp.getYear() + 1900, timestamp.getMonth(), timestamp.getDay(), timestamp.getHours(), timestamp.getMinutes(), timestamp.getSeconds());
             Integer spaces = rs.getInt("spaces");
             Trip trip = new Trip(id, name, source, destination, when, spaces);
 

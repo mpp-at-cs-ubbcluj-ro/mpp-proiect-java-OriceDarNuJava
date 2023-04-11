@@ -11,3 +11,16 @@
 11 Apr 2023 23:54:44,825 INFO  com.example.mpp.HelloApplication 36 start - Connection established
 12 Apr 2023 00:04:44,622 INFO  com.example.mpp.HelloApplication 36 start - Connection established
 12 Apr 2023 00:06:55,605 INFO  com.example.mpp.HelloApplication 36 start - Connection established
+12 Apr 2023 00:15:38,253 INFO  com.example.mpp.HelloApplication 36 start - Connection established
+12 Apr 2023 00:18:00,218 INFO  com.example.mpp.HelloApplication 36 start - Connection established
+12 Apr 2023 00:26:57,913 INFO  com.example.mpp.HelloApplication 36 start - Connection established
+12 Apr 2023 00:30:05,994 INFO  com.example.mpp.HelloApplication 36 start - Connection established
+12 Apr 2023 00:33:44,271 INFO  com.example.mpp.HelloApplication 36 start - Connection established
+12 Apr 2023 00:35:47,139 INFO  com.example.mpp.HelloApplication 36 start - Connection established
+12 Apr 2023 00:37:04,574 INFO  com.example.mpp.HelloApplication 36 start - Connection established
+12 Apr 2023 00:38:01,923 INFO  com.example.mpp.HelloApplication 36 start - Connection established
+12 Apr 2023 00:39:14,220 INFO  com.example.mpp.HelloApplication 36 start - Connection established
+12 Apr 2023 00:50:33,955 INFO  com.example.mpp.HelloApplication 36 start - Connection established
+12 Apr 2023 00:50:54,486 INFO  com.example.mpp.repository.ReservationRepositoryDB 24 push - Trip added
+12 Apr 2023 00:52:01,507 INFO  com.example.mpp.HelloApplication 36 start - Connection established
+12 Apr 2023 00:52:22,067 INFO  com.example.mpp.repository.ReservationRepositoryDB 24 push - Trip added

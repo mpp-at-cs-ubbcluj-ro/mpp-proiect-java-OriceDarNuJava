@@ -50,6 +50,7 @@ public class LoginController {
         stage.setTitle("Reservations");
         stage.setScene(scene);
         stage.show();
+        controller.load();
         Stage currentWindow = (Stage) usernameTextField.getScene().getWindow();
         currentWindow.close();
     }

@@ -1,5 +1,6 @@
 package com.example.mpp;
 
+import com.example.mpp.domain.Trip;
 import com.example.mpp.domain.TripDto;
 import com.example.mpp.domain.User;
 import com.example.mpp.services.TripService;
@@ -63,7 +64,7 @@ public class ReservationController {
         destinationCol.setMinWidth(100);
         destinationCol.setCellValueFactory(new PropertyValueFactory<>("destination"));
 
-        TableColumn<TripDto, LocalDateTime> whenCol = new TableColumn<>("When");
+        TableColumn<TripDto, String> whenCol = new TableColumn<>("When");
         whenCol.setMinWidth(100);
         whenCol.setCellValueFactory(new PropertyValueFactory<>("when"));
 
@@ -85,12 +86,29 @@ public class ReservationController {
     }
 
     @FXML
-    public void onSearch() {
+    public void onSearch() throws SQLException {
+        LocalDateTime begin = this.beginDateFilter.getValue().atTime(0, 0);
+        LocalDateTime end = this.endDateFilter.getValue().atTime(0, 0);
+        String destination = this.destinationFilter.getText();
 
+        this.tableItems.clear();
+        this.tableItems.addAll(this.service.getTripsFiltered(destination, begin, end));
     }
 
     @FXML
     public void onInsert() {
+        try {
+            TripDto trip = this.tripTable.getSelectionModel().getSelectedItem();
+            String name = this.personNameTextBox.getText();
+            String cnp = this.cnpTextBox.getText();
+            String reserved = this.reservedTextBox.getText();
 
+            this.service.addReservation(name, cnp, reserved, trip.getTripId(), this.currentUser.getId());
+            this.tableItems.remove(trip);
+            trip.setReservedSpots(trip.getReservedSpots() + Integer.parseInt(reserved));
+            this.tableItems.add(trip);
+        } catch (SQLException e) {
+
+        }
     }
 }

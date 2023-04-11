@@ -1,20 +1,23 @@
 package com.example.mpp.domain;
 
 import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 
 public class TripDto {
-    private String name;
-    private String source;
-    private String destination;
-    private LocalDateTime when;
-    private Integer spaces;
+    private final Integer tripId;
+    private final String name;
+    private final String source;
+    private final String destination;
+    private final String when;
+    private final Integer spaces;
     private Integer reservedSpots;
 
     public TripDto(Trip trip, Integer reservedSpots) {
+        this.tripId = trip.getId();
         this.name = trip.getName();
         this.source = trip.getSource();
         this.destination = trip.getDestination();
-        this.when = trip.getWhen();
+        this.when = trip.getWhen().format(DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm"));
         this.spaces = trip.getSpaces();
         this.reservedSpots = reservedSpots;
     }
@@ -23,44 +26,28 @@ public class TripDto {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
     public String getSource() {
         return source;
-    }
-
-    public void setSource(String source) {
-        this.source = source;
     }
 
     public String getDestination() {
         return destination;
     }
 
-    public void setDestination(String destination) {
-        this.destination = destination;
-    }
-
-    public LocalDateTime getWhen() {
+    public String getWhen() {
         return when;
-    }
-
-    public void setWhen(LocalDateTime when) {
-        this.when = when;
     }
 
     public Integer getSpaces() {
         return spaces;
     }
 
-    public void setSpaces(Integer spaces) {
-        this.spaces = spaces;
-    }
-
     public Integer getReservedSpots() {
         return reservedSpots;
+    }
+
+    public Integer getTripId() {
+        return tripId;
     }
 
     public void setReservedSpots(Integer reservedSpots) {
