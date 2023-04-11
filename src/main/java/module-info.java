@@ -1,13 +1,8 @@
-module com.example.mpp {
+module com.example.demo {
     requires javafx.controls;
     requires javafx.fxml;
-
-    requires org.controlsfx.controls;
-    requires com.dlsc.formsfx;
-    requires com.almasb.fxgl.all;
-    requires org.apache.logging.log4j;
     requires java.sql;
-    requires annotations;
+    requires org.apache.logging.log4j;
 
     opens com.example.mpp to javafx.fxml;
     exports com.example.mpp;

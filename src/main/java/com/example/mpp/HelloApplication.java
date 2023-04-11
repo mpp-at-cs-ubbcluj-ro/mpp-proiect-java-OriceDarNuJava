@@ -1,15 +1,12 @@
 package com.example.mpp;
 
 import com.example.mpp.domain.User;
-
 import com.example.mpp.repository.Repository;
 import com.example.mpp.repository.ReservationRepositoryDB;
 import com.example.mpp.repository.TripRepositoryDB;
 import com.example.mpp.repository.UserRepositoryDB;
-
 import com.example.mpp.services.TripService;
 import com.example.mpp.utils.PostgresJDBC;
-
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;

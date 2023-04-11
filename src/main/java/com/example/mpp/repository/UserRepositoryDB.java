@@ -1,11 +1,12 @@
 package com.example.mpp.repository;
 
-import com.example.mpp.domain.Trip;
 import com.example.mpp.domain.User;
 import org.apache.logging.log4j.Logger;
 
-import java.sql.*;
-import java.time.LocalDateTime;
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
