@@ -12,7 +12,7 @@ public interface Repository<T extends Entity> {
 
     List<T> get(RepositoryFilter<T> filter) throws SQLException;
 
-    List<T> getAll();
+    List<T> getAll() throws SQLException;
 
     void update(T oldValue, T newValue);
 

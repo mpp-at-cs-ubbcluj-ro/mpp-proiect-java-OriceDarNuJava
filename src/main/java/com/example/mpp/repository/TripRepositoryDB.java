@@ -1,7 +1,7 @@
 package com.example.mpp.repository;
 
-import org.apache.logging.log4j.Logger;
 import com.example.mpp.domain.Trip;
+import org.apache.logging.log4j.Logger;
 
 import java.sql.*;
 import java.time.LocalDateTime;
@@ -30,6 +30,17 @@ public class TripRepositoryDB implements Repository<Trip> {
     public List<Trip> get(RepositoryFilter<Trip> filter) throws SQLException {
         Statement statement = connection.createStatement();
         String sql = "SELECT * FROM labmpppb6.trips " + filter.getSql();
+        return getTrips(statement, sql);
+    }
+
+    @Override
+    public List<Trip> getAll() throws SQLException {
+        Statement statement = connection.createStatement();
+        String sql = "SELECT * FROM labmpppb6.trips;";
+        return getTrips(statement, sql);
+    }
+
+    private List<Trip> getTrips(Statement statement, String sql) throws SQLException {
         ResultSet rs = statement.executeQuery(sql);
 
         List<Trip> trips = new ArrayList<>();
@@ -47,11 +58,6 @@ public class TripRepositoryDB implements Repository<Trip> {
             trips.add(trip);
         }
         return trips;
-    }
-
-    @Override
-    public List<Trip> getAll() {
-        return null;
     }
 
     @Override

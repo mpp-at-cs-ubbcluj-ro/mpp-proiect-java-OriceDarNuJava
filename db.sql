@@ -30,6 +30,8 @@ create table labmpppb6.reservations
         constraint reservations_users_id_fk
             references labmpppb6.users,
     personal_identification varchar(255) not null,
-    reserved_spots          integer      not null
+    reserved_spots          integer      not null,
+    trip_id                 integer      not null
+        constraint reservations_trips_id_fk references labmpppb6.trips
 );
 
