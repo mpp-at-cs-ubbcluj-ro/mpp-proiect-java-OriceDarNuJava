@@ -97,18 +97,17 @@ public class ReservationController {
 
     @FXML
     public void onInsert() {
-        try {
-            TripDto trip = this.tripTable.getSelectionModel().getSelectedItem();
-            String name = this.personNameTextBox.getText();
-            String cnp = this.cnpTextBox.getText();
-            String reserved = this.reservedTextBox.getText();
+        TripDto trip = this.tripTable.getSelectionModel().getSelectedItem();
+        String name = this.personNameTextBox.getText();
+        String cnp = this.cnpTextBox.getText();
+        String reserved = this.reservedTextBox.getText();
 
-            this.service.addReservation(name, cnp, reserved, trip.getTripId(), this.currentUser.getId());
+        try {
+            this.service.addReservation(name, cnp, reserved, trip, this.currentUser.getId());
             this.tableItems.remove(trip);
             trip.setReservedSpots(trip.getReservedSpots() + Integer.parseInt(reserved));
             this.tableItems.add(trip);
-        } catch (SQLException e) {
-
+        } catch (Exception e) {
         }
     }
 }

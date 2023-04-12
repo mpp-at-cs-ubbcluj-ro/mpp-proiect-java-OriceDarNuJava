@@ -3,10 +3,12 @@ package com.example.mpp.services;
 import com.example.mpp.domain.Reservation;
 import com.example.mpp.domain.Trip;
 import com.example.mpp.domain.TripDto;
+import com.example.mpp.exceptions.InvalidReservationException;
 import com.example.mpp.repository.Repository;
 import com.example.mpp.repository.RepositoryFilter;
 import com.example.mpp.repository.ReservationRepositoryFilterByTrip;
 import com.example.mpp.repository.TripRepositoryFilterByDestinationAndTime;
+import com.example.mpp.validators.ReservationValidator;
 
 import java.sql.SQLException;
 import java.time.LocalDateTime;
@@ -35,8 +37,11 @@ public class TripService {
         return getTripDtos(trips);
     }
 
-    public void addReservation(String name, String cnp, String reserved, Integer tripId, Integer userId) throws SQLException {
-        Reservation reservation = new Reservation(0, tripId, name, userId, cnp, Integer.parseInt(reserved));
+    public void addReservation(String name, String cnp, String reserved, TripDto trip, Integer userId) throws SQLException, InvalidReservationException {
+        Reservation reservation = new Reservation(0, trip.getTripId(), name, userId, cnp, Integer.parseInt(reserved));
+
+        ReservationValidator.getInstance().validate(reservation, trip);
+
         this.reservationRepository.push(reservation);
     }
 
