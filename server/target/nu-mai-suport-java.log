@@ -1,0 +1,339 @@
+06 May 2023 12:39:56,699 INFO  org.example.Main 14 main - starting server
+06 May 2023 12:40:27,935 INFO  org.example.Main 14 main - starting server
+06 May 2023 12:46:45,787 INFO  org.example.Main 14 main - starting server
+06 May 2023 12:48:24,214 INFO  org.example.Main 14 main - starting server
+06 May 2023 12:50:13,717 INFO  org.example.Main 14 main - starting server
+06 May 2023 12:50:30,654 INFO  org.example.Main 14 main - starting server
+06 May 2023 12:50:35,403 INFO  org.example.Main 14 main - starting server
+06 May 2023 12:50:50,886 INFO  org.example.Main 14 main - starting server
+06 May 2023 12:51:59,576 INFO  org.example.Main 14 main - starting server
+06 May 2023 12:52:46,854 INFO  org.example.Main 14 main - starting server
+06 May 2023 13:33:22,253 INFO  org.example.Main 24 main - Starting server!
+06 May 2023 13:33:22,408 INFO  org.example.Main 32 main - Connection established
+06 May 2023 13:36:12,303 INFO  org.example.Main 24 main - Starting server!
+06 May 2023 13:36:12,444 INFO  org.example.Main 32 main - Connection established
+06 May 2023 13:39:30,591 INFO  org.example.Main 24 main - Starting server!
+06 May 2023 13:39:30,739 INFO  org.example.Main 32 main - Connection established
+06 May 2023 13:39:42,563 INFO  org.example.managers.ConnectionManager 35 handleGetUserRequest - Handling get user request
+06 May 2023 13:39:42,577 INFO  org.example.managers.ConnectionManager 38 handleGetUserRequest - Found user: org.example.domain.User@56748a3f
+06 May 2023 13:39:42,584 INFO  org.example.managers.ConnectionManager 88 sendResponse - Error in sending response
+06 May 2023 13:40:45,255 INFO  org.example.Main 24 main - Starting server!
+06 May 2023 13:40:45,502 INFO  org.example.Main 32 main - Connection established
+06 May 2023 13:40:55,228 INFO  org.example.managers.ConnectionManager 35 handleGetUserRequest - Handling get user request
+06 May 2023 13:40:55,241 INFO  org.example.managers.ConnectionManager 38 handleGetUserRequest - Found user: org.example.domain.User@56748a3f
+06 May 2023 13:40:55,249 INFO  org.example.managers.ConnectionManager 88 sendResponse - Error in sending responseorg.example.domain.User
+06 May 2023 13:42:16,323 INFO  org.example.Main 24 main - Starting server!
+06 May 2023 13:42:16,464 INFO  org.example.Main 32 main - Connection established
+06 May 2023 13:42:30,694 INFO  org.example.managers.ConnectionManager 35 handleGetUserRequest - Handling get user request
+06 May 2023 13:42:30,707 INFO  org.example.managers.ConnectionManager 38 handleGetUserRequest - Found user: org.example.domain.User@3a987395
+06 May 2023 13:42:59,602 INFO  org.example.Main 24 main - Starting server!
+06 May 2023 13:42:59,749 INFO  org.example.Main 32 main - Connection established
+06 May 2023 13:43:04,179 INFO  org.example.managers.ConnectionManager 35 handleGetUserRequest - Handling get user request
+06 May 2023 13:43:04,192 INFO  org.example.managers.ConnectionManager 38 handleGetUserRequest - Found user: null
+06 May 2023 13:43:08,987 INFO  org.example.managers.ConnectionManager 35 handleGetUserRequest - Handling get user request
+06 May 2023 13:43:08,992 INFO  org.example.managers.ConnectionManager 38 handleGetUserRequest - Found user: org.example.domain.User@105223c9
+06 May 2023 13:43:25,844 INFO  org.example.Main 24 main - Starting server!
+06 May 2023 13:43:25,986 INFO  org.example.Main 32 main - Connection established
+06 May 2023 13:43:41,578 INFO  org.example.managers.ConnectionManager 35 handleGetUserRequest - Handling get user request
+06 May 2023 13:43:41,591 INFO  org.example.managers.ConnectionManager 38 handleGetUserRequest - Found user: org.example.domain.User@56748a3f
+06 May 2023 13:45:16,076 INFO  org.example.Main 24 main - Starting server!
+06 May 2023 13:45:16,248 INFO  org.example.Main 32 main - Connection established
+06 May 2023 13:45:29,942 INFO  org.example.managers.ConnectionManager 35 handleGetUserRequest - Handling get user request
+06 May 2023 13:45:29,960 INFO  org.example.managers.ConnectionManager 38 handleGetUserRequest - Found user: org.example.domain.User@56748a3f
+06 May 2023 14:00:15,708 INFO  org.example.Main 24 main - Starting server!
+06 May 2023 14:00:15,945 INFO  org.example.Main 32 main - Connection established
+06 May 2023 14:01:01,917 INFO  org.example.Main 24 main - Starting server!
+06 May 2023 14:01:02,076 INFO  org.example.Main 32 main - Connection established
+06 May 2023 14:02:30,641 INFO  org.example.Main 24 main - Starting server!
+06 May 2023 14:02:30,841 INFO  org.example.Main 32 main - Connection established
+06 May 2023 14:02:43,249 INFO  org.example.Main 24 main - Starting server!
+06 May 2023 14:02:43,391 INFO  org.example.Main 32 main - Connection established
+06 May 2023 14:03:35,536 INFO  org.example.Main 24 main - Starting server!
+06 May 2023 14:03:35,689 INFO  org.example.Main 32 main - Connection established
+06 May 2023 14:04:06,065 INFO  org.example.Main 24 main - Starting server!
+06 May 2023 14:04:06,211 INFO  org.example.Main 32 main - Connection established
+06 May 2023 14:04:46,765 INFO  org.example.Main 24 main - Starting server!
+06 May 2023 14:04:46,923 INFO  org.example.Main 32 main - Connection established
+06 May 2023 14:05:13,204 INFO  org.example.Main 24 main - Starting server!
+06 May 2023 14:05:13,355 INFO  org.example.Main 32 main - Connection established
+06 May 2023 14:05:56,887 INFO  org.example.Main 24 main - Starting server!
+06 May 2023 14:05:57,046 INFO  org.example.Main 32 main - Connection established
+06 May 2023 14:06:20,711 INFO  org.example.Main 24 main - Starting server!
+06 May 2023 14:06:35,105 INFO  org.example.Main 32 main - Connection established
+06 May 2023 14:07:39,935 INFO  org.example.Main 24 main - Starting server!
+06 May 2023 14:07:40,088 INFO  org.example.Main 32 main - Connection established
+06 May 2023 14:08:29,586 INFO  org.example.Main 24 main - Starting server!
+06 May 2023 14:11:09,380 INFO  org.example.Main 24 main - Starting server!
+06 May 2023 14:11:11,718 INFO  org.example.Main 32 main - Connection established
+06 May 2023 14:11:51,116 INFO  org.example.Main 24 main - Starting server!
+06 May 2023 14:11:51,303 INFO  org.example.Main 32 main - Connection established
+06 May 2023 14:14:40,553 INFO  org.example.Main 24 main - Starting server!
+06 May 2023 14:14:40,841 INFO  org.example.Main 32 main - Connection established
+06 May 2023 14:15:50,392 INFO  org.example.Main 24 main - Starting server!
+06 May 2023 14:15:50,617 INFO  org.example.Main 32 main - Connection established
+06 May 2023 14:15:56,644 INFO  org.example.Main 41 main - Got a new client
+06 May 2023 14:16:22,692 INFO  org.example.Main 24 main - Starting server!
+06 May 2023 14:16:22,897 INFO  org.example.Main 32 main - Connection established
+06 May 2023 14:16:34,133 INFO  org.example.Main 41 main - Got a new client
+06 May 2023 14:17:19,116 INFO  org.example.Main 24 main - Starting server!
+06 May 2023 14:17:19,265 INFO  org.example.Main 32 main - Connection established
+06 May 2023 14:17:24,787 INFO  org.example.Main 41 main - Got a new client
+06 May 2023 14:17:36,094 INFO  org.example.Main 24 main - Starting server!
+06 May 2023 14:17:36,239 INFO  org.example.Main 32 main - Connection established
+06 May 2023 14:17:43,452 INFO  org.example.Main 41 main - Got a new client
+06 May 2023 14:21:37,894 INFO  org.example.Main 24 main - Starting server!
+06 May 2023 14:21:38,072 INFO  org.example.Main 32 main - Connection established
+06 May 2023 14:21:43,724 INFO  org.example.Main 41 main - Got a new client
+06 May 2023 14:21:51,444 INFO  org.example.managers.ConnectionManager 43 handleGetUserRequest - Handling get user request
+06 May 2023 14:21:51,471 INFO  org.example.managers.ConnectionManager 46 handleGetUserRequest - Found user: org.example.domain.User@35eb1c30
+06 May 2023 14:24:07,820 INFO  org.example.Main 24 main - Starting server!
+06 May 2023 14:24:07,979 INFO  org.example.Main 32 main - Connection established
+06 May 2023 14:24:13,409 INFO  org.example.Main 41 main - Got a new client
+06 May 2023 14:24:46,711 INFO  org.example.Main 24 main - Starting server!
+06 May 2023 14:24:46,865 INFO  org.example.Main 32 main - Connection established
+06 May 2023 14:27:01,219 INFO  org.example.Main 24 main - Starting server!
+06 May 2023 14:27:01,382 INFO  org.example.Main 32 main - Connection established
+06 May 2023 14:27:12,856 INFO  org.example.Main 41 main - Got a new client
+06 May 2023 14:27:29,158 INFO  org.example.managers.ConnectionManager 43 handleGetUserRequest - Handling get user request
+06 May 2023 14:27:29,183 INFO  org.example.managers.ConnectionManager 46 handleGetUserRequest - Found user: org.example.domain.User@35eb1c30
+06 May 2023 14:27:33,373 INFO  org.example.managers.ConnectionManager 58 handleGetAllTripsRequest - Handling get all trips request
+06 May 2023 14:27:33,397 INFO  org.example.managers.ConnectionManager 61 handleGetAllTripsRequest - Found all trips
+06 May 2023 14:27:33,410 INFO  org.example.managers.ConnectionManager 102 sendResponse - Error in sending responseorg.example.domain.TripDto
+06 May 2023 14:28:45,596 INFO  org.example.Main 24 main - Starting server!
+06 May 2023 14:28:45,745 INFO  org.example.Main 32 main - Connection established
+06 May 2023 14:28:53,331 INFO  org.example.Main 41 main - Got a new client
+06 May 2023 14:28:59,912 INFO  org.example.managers.ConnectionManager 43 handleGetUserRequest - Handling get user request
+06 May 2023 14:28:59,939 INFO  org.example.managers.ConnectionManager 46 handleGetUserRequest - Found user: org.example.domain.User@465e9d0a
+06 May 2023 14:29:00,083 INFO  org.example.managers.ConnectionManager 58 handleGetAllTripsRequest - Handling get all trips request
+06 May 2023 14:29:00,096 INFO  org.example.managers.ConnectionManager 61 handleGetAllTripsRequest - Found all trips
+06 May 2023 14:29:00,117 INFO  org.example.managers.ConnectionManager 102 sendResponse - Error in sending responseorg.example.domain.TripDto
+06 May 2023 14:31:13,477 INFO  org.example.Main 24 main - Starting server!
+06 May 2023 14:31:13,646 INFO  org.example.Main 32 main - Connection established
+06 May 2023 14:31:30,031 INFO  org.example.Main 41 main - Got a new client
+06 May 2023 14:31:37,660 INFO  org.example.managers.ConnectionManager 43 handleGetUserRequest - Handling get user request
+06 May 2023 14:31:37,684 INFO  org.example.managers.ConnectionManager 46 handleGetUserRequest - Found user: org.example.domain.User@666bc8ea
+06 May 2023 14:31:55,311 INFO  org.example.managers.ConnectionManager 58 handleGetAllTripsRequest - Handling get all trips request
+06 May 2023 14:32:03,729 INFO  org.example.managers.ConnectionManager 61 handleGetAllTripsRequest - Found all trips
+06 May 2023 14:32:26,856 INFO  org.example.managers.ConnectionManager 102 sendResponse - Error in sending responseorg.example.domain.TripDto
+06 May 2023 14:33:28,682 INFO  org.example.Main 24 main - Starting server!
+06 May 2023 14:33:28,858 INFO  org.example.Main 32 main - Connection established
+06 May 2023 14:33:35,955 INFO  org.example.Main 41 main - Got a new client
+06 May 2023 14:33:41,084 INFO  org.example.managers.ConnectionManager 43 handleGetUserRequest - Handling get user request
+06 May 2023 14:33:41,109 INFO  org.example.managers.ConnectionManager 46 handleGetUserRequest - Found user: org.example.domain.User@35eb1c30
+06 May 2023 14:33:43,772 INFO  org.example.managers.ConnectionManager 58 handleGetAllTripsRequest - Handling get all trips request
+06 May 2023 14:33:43,790 INFO  org.example.managers.ConnectionManager 61 handleGetAllTripsRequest - Found all trips
+06 May 2023 14:33:43,805 INFO  org.example.managers.ConnectionManager 102 sendResponse - Error in sending responseorg.example.domain.TripDto
+06 May 2023 14:34:08,353 INFO  org.example.Main 24 main - Starting server!
+06 May 2023 14:34:08,534 INFO  org.example.Main 32 main - Connection established
+06 May 2023 14:34:15,913 INFO  org.example.Main 41 main - Got a new client
+06 May 2023 14:34:20,903 INFO  org.example.managers.ConnectionManager 43 handleGetUserRequest - Handling get user request
+06 May 2023 14:34:20,924 INFO  org.example.managers.ConnectionManager 46 handleGetUserRequest - Found user: org.example.domain.User@35eb1c30
+06 May 2023 14:34:21,055 INFO  org.example.managers.ConnectionManager 58 handleGetAllTripsRequest - Handling get all trips request
+06 May 2023 14:34:21,068 INFO  org.example.managers.ConnectionManager 61 handleGetAllTripsRequest - Found all trips
+06 May 2023 14:34:21,101 INFO  org.example.managers.ConnectionManager 102 sendResponse - Error in sending responseorg.example.domain.TripDto
+06 May 2023 14:39:25,678 INFO  org.example.Main 24 main - Starting server!
+06 May 2023 14:39:25,850 INFO  org.example.Main 32 main - Connection established
+06 May 2023 14:39:41,438 INFO  org.example.Main 41 main - Got a new client
+06 May 2023 14:39:49,259 INFO  org.example.managers.ConnectionManager 43 handleGetUserRequest - Handling get user request
+06 May 2023 14:39:49,294 INFO  org.example.managers.ConnectionManager 46 handleGetUserRequest - Found user: org.example.domain.User@35eb1c30
+06 May 2023 14:39:49,431 INFO  org.example.managers.ConnectionManager 58 handleGetAllTripsRequest - Handling get all trips request
+06 May 2023 14:39:49,448 INFO  org.example.managers.ConnectionManager 61 handleGetAllTripsRequest - Found all trips
+06 May 2023 14:39:49,465 INFO  org.example.managers.ConnectionManager 102 sendResponse - Error in sending responseorg.example.domain.TripDto
+06 May 2023 14:41:02,683 INFO  org.example.Main 24 main - Starting server!
+06 May 2023 14:41:02,845 INFO  org.example.Main 32 main - Connection established
+06 May 2023 14:41:14,044 INFO  org.example.Main 41 main - Got a new client
+06 May 2023 14:41:34,887 INFO  org.example.managers.ConnectionManager 43 handleGetUserRequest - Handling get user request
+06 May 2023 14:41:34,920 INFO  org.example.managers.ConnectionManager 46 handleGetUserRequest - Found user: org.example.domain.User@35eb1c30
+06 May 2023 14:41:35,060 INFO  org.example.managers.ConnectionManager 58 handleGetAllTripsRequest - Handling get all trips request
+06 May 2023 14:41:35,073 INFO  org.example.managers.ConnectionManager 61 handleGetAllTripsRequest - Found all trips
+06 May 2023 14:41:35,089 INFO  org.example.managers.ConnectionManager 102 sendResponse - Error in sending responseorg.example.domain.TripDto
+06 May 2023 14:43:41,629 INFO  org.example.Main 24 main - Starting server!
+06 May 2023 14:43:41,828 INFO  org.example.Main 32 main - Connection established
+06 May 2023 14:43:47,902 INFO  org.example.Main 41 main - Got a new client
+06 May 2023 14:43:54,445 INFO  org.example.managers.ConnectionManager 43 handleGetUserRequest - Handling get user request
+06 May 2023 14:43:54,468 INFO  org.example.managers.ConnectionManager 46 handleGetUserRequest - Found user: org.example.domain.User@35eb1c30
+06 May 2023 14:43:54,593 INFO  org.example.managers.ConnectionManager 58 handleGetAllTripsRequest - Handling get all trips request
+06 May 2023 14:43:54,611 INFO  org.example.managers.ConnectionManager 61 handleGetAllTripsRequest - Found all trips
+06 May 2023 14:44:10,219 INFO  org.example.Main 41 main - Got a new client
+06 May 2023 14:44:14,049 INFO  org.example.managers.ConnectionManager 43 handleGetUserRequest - Handling get user request
+06 May 2023 14:44:14,059 INFO  org.example.managers.ConnectionManager 46 handleGetUserRequest - Found user: null
+06 May 2023 14:44:18,007 INFO  org.example.managers.ConnectionManager 43 handleGetUserRequest - Handling get user request
+06 May 2023 14:44:18,013 INFO  org.example.managers.ConnectionManager 46 handleGetUserRequest - Found user: org.example.domain.User@1fd4c06a
+06 May 2023 14:44:18,147 INFO  org.example.managers.ConnectionManager 58 handleGetAllTripsRequest - Handling get all trips request
+06 May 2023 14:44:18,154 INFO  org.example.managers.ConnectionManager 61 handleGetAllTripsRequest - Found all trips
+09 May 2023 14:35:41,472 INFO  org.example.Main 24 main - Starting server!
+09 May 2023 14:35:41,744 INFO  org.example.Main 32 main - Connection established
+09 May 2023 14:35:42,146 INFO  org.example.Main 41 main - Got a new client
+09 May 2023 14:35:48,643 INFO  org.example.managers.ConnectionManager 49 handleGetUserRequest - Handling get user request
+09 May 2023 14:35:48,677 INFO  org.example.managers.ConnectionManager 52 handleGetUserRequest - Found user: org.example.domain.User@3dfdc346
+09 May 2023 14:35:48,797 INFO  org.example.managers.ConnectionManager 64 handleGetAllTripsRequest - Handling get all trips request
+09 May 2023 14:35:48,812 INFO  org.example.managers.ConnectionManager 67 handleGetAllTripsRequest - Found all trips
+09 May 2023 14:36:12,669 INFO  org.example.managers.ConnectionManager 76 handleGetTripsFilteredRequest - Handling get trips filtered request
+09 May 2023 14:36:12,678 INFO  org.example.managers.ConnectionManager 79 handleGetTripsFilteredRequest - Found trips filtered
+09 May 2023 14:36:14,026 INFO  org.example.managers.ConnectionManager 76 handleGetTripsFilteredRequest - Handling get trips filtered request
+09 May 2023 14:36:14,030 INFO  org.example.managers.ConnectionManager 79 handleGetTripsFilteredRequest - Found trips filtered
+09 May 2023 14:36:20,592 INFO  org.example.managers.ConnectionManager 76 handleGetTripsFilteredRequest - Handling get trips filtered request
+09 May 2023 14:36:20,597 INFO  org.example.managers.ConnectionManager 79 handleGetTripsFilteredRequest - Found trips filtered
+09 May 2023 14:36:24,776 INFO  org.example.managers.ConnectionManager 76 handleGetTripsFilteredRequest - Handling get trips filtered request
+09 May 2023 14:36:24,784 INFO  org.example.managers.ConnectionManager 79 handleGetTripsFilteredRequest - Found trips filtered
+09 May 2023 14:36:34,859 INFO  org.example.managers.ConnectionManager 76 handleGetTripsFilteredRequest - Handling get trips filtered request
+09 May 2023 14:36:34,865 INFO  org.example.managers.ConnectionManager 79 handleGetTripsFilteredRequest - Found trips filtered
+09 May 2023 14:36:40,159 INFO  org.example.managers.ConnectionManager 76 handleGetTripsFilteredRequest - Handling get trips filtered request
+09 May 2023 14:36:40,167 INFO  org.example.managers.ConnectionManager 79 handleGetTripsFilteredRequest - Found trips filtered
+09 May 2023 14:36:46,742 INFO  org.example.managers.ConnectionManager 76 handleGetTripsFilteredRequest - Handling get trips filtered request
+09 May 2023 14:36:46,749 INFO  org.example.managers.ConnectionManager 79 handleGetTripsFilteredRequest - Found trips filtered
+09 May 2023 14:37:13,765 INFO  org.example.managers.ConnectionManager 88 handleAddReservationRequest - Handling add reservation request
+09 May 2023 14:37:13,767 INFO  org.example.repository.ReservationRepositoryDB 24 push - Trip added
+09 May 2023 14:37:17,708 INFO  org.example.managers.ConnectionManager 88 handleAddReservationRequest - Handling add reservation request
+09 May 2023 14:39:08,630 INFO  org.example.Main 24 main - Starting server!
+09 May 2023 14:39:08,865 INFO  org.example.Main 32 main - Connection established
+09 May 2023 14:39:10,954 INFO  org.example.Main 41 main - Got a new client
+09 May 2023 14:39:17,041 INFO  org.example.managers.ConnectionManager 49 handleGetUserRequest - Handling get user request
+09 May 2023 14:39:17,061 INFO  org.example.managers.ConnectionManager 52 handleGetUserRequest - Found user: org.example.domain.User@472b1db4
+09 May 2023 14:39:17,191 INFO  org.example.managers.ConnectionManager 64 handleGetAllTripsRequest - Handling get all trips request
+09 May 2023 14:39:17,199 INFO  org.example.managers.ConnectionManager 67 handleGetAllTripsRequest - Found all trips
+09 May 2023 14:39:40,261 INFO  org.example.managers.ConnectionManager 88 handleAddReservationRequest - Handling add reservation request
+09 May 2023 14:39:44,993 INFO  org.example.repository.ReservationRepositoryDB 24 push - Trip added
+09 May 2023 14:44:58,514 INFO  org.example.Main 24 main - Starting server!
+09 May 2023 14:44:58,672 INFO  org.example.Main 32 main - Connection established
+09 May 2023 14:45:21,697 INFO  org.example.Main 24 main - Starting server!
+09 May 2023 14:45:21,848 INFO  org.example.Main 32 main - Connection established
+09 May 2023 14:45:25,009 INFO  org.example.Main 41 main - Got a new client
+09 May 2023 14:45:30,991 INFO  org.example.managers.ConnectionManager 49 handleGetUserRequest - Handling get user request
+09 May 2023 14:45:31,008 INFO  org.example.managers.ConnectionManager 52 handleGetUserRequest - Found user: org.example.domain.User@472b1db4
+09 May 2023 14:45:31,138 INFO  org.example.managers.ConnectionManager 64 handleGetAllTripsRequest - Handling get all trips request
+09 May 2023 14:45:31,147 INFO  org.example.managers.ConnectionManager 67 handleGetAllTripsRequest - Found all trips
+09 May 2023 14:45:53,409 INFO  org.example.managers.ConnectionManager 88 handleAddReservationRequest - Handling add reservation request
+09 May 2023 15:10:21,079 INFO  org.example.Main 24 main - Starting server!
+09 May 2023 15:10:21,338 INFO  org.example.Main 32 main - Connection established
+09 May 2023 15:10:23,553 INFO  org.example.Main 41 main - Got a new client
+09 May 2023 15:10:29,062 INFO  org.example.managers.ConnectionManager 49 handleGetUserRequest - Handling get user request
+09 May 2023 15:10:29,083 INFO  org.example.managers.ConnectionManager 52 handleGetUserRequest - Found user: org.example.domain.User@520b4e95
+09 May 2023 15:10:29,210 INFO  org.example.managers.ConnectionManager 64 handleGetAllTripsRequest - Handling get all trips request
+09 May 2023 15:10:29,219 INFO  org.example.managers.ConnectionManager 67 handleGetAllTripsRequest - Found all trips
+09 May 2023 15:10:47,450 INFO  org.example.managers.ConnectionManager 88 handleAddReservationRequest - Handling add reservation request
+09 May 2023 15:13:23,659 INFO  org.example.Main 24 main - Starting server!
+09 May 2023 15:13:23,961 INFO  org.example.Main 32 main - Connection established
+09 May 2023 15:13:28,243 INFO  org.example.Main 41 main - Got a new client
+09 May 2023 15:13:33,332 INFO  org.example.managers.ConnectionManager 49 handleGetUserRequest - Handling get user request
+09 May 2023 15:13:33,360 INFO  org.example.managers.ConnectionManager 52 handleGetUserRequest - Found user: org.example.domain.User@5444a1b9
+09 May 2023 15:13:33,481 INFO  org.example.managers.ConnectionManager 64 handleGetAllTripsRequest - Handling get all trips request
+09 May 2023 15:13:33,491 INFO  org.example.managers.ConnectionManager 67 handleGetAllTripsRequest - Found all trips
+09 May 2023 15:13:45,789 INFO  org.example.managers.ConnectionManager 88 handleAddReservationRequest - Handling add reservation request
+09 May 2023 15:13:45,797 INFO  org.example.managers.ConnectionManager 93 handleAddReservationRequest - Could not add reservation, Invalid spots!
+09 May 2023 15:13:49,631 INFO  org.example.managers.ConnectionManager 88 handleAddReservationRequest - Handling add reservation request
+09 May 2023 15:13:49,639 INFO  org.example.repository.ReservationRepositoryDB 24 push - Trip added
+09 May 2023 20:12:39,923 INFO  org.example.Main 24 main - Starting server!
+09 May 2023 20:12:40,065 INFO  org.example.Main 32 main - Connection established
+09 May 2023 20:13:26,288 INFO  org.example.Main 24 main - Starting server!
+09 May 2023 20:13:26,396 INFO  org.example.Main 32 main - Connection established
+09 May 2023 20:15:06,879 INFO  org.example.Main 43 main - Got a new client
+09 May 2023 20:15:13,461 INFO  org.example.managers.ConnectionManager 51 handleGetUserRequest - Handling get user request
+09 May 2023 20:15:13,511 INFO  org.example.managers.ConnectionManager 54 handleGetUserRequest - Found user: org.example.domain.User@34f8da86
+09 May 2023 20:15:13,612 INFO  org.example.managers.ConnectionManager 67 handleGetAllTripsRequest - Handling get all trips request
+09 May 2023 20:15:13,625 INFO  org.example.managers.ConnectionManager 70 handleGetAllTripsRequest - Found all trips
+09 May 2023 20:15:29,085 INFO  org.example.managers.ConnectionManager 91 handleAddReservationRequest - Handling add reservation request
+09 May 2023 20:15:29,093 INFO  org.example.repository.ReservationRepositoryDB 24 push - Trip added
+09 May 2023 20:15:29,114 INFO  org.example.managers.ConnectionManager 67 handleGetAllTripsRequest - Handling get all trips request
+09 May 2023 20:15:29,120 INFO  org.example.managers.ConnectionManager 70 handleGetAllTripsRequest - Found all trips
+09 May 2023 20:16:02,788 INFO  org.example.Main 43 main - Got a new client
+09 May 2023 20:16:07,905 INFO  org.example.managers.ConnectionManager 51 handleGetUserRequest - Handling get user request
+09 May 2023 20:16:07,908 INFO  org.example.managers.ConnectionManager 54 handleGetUserRequest - Found user: org.example.domain.User@7ac195c2
+09 May 2023 20:16:07,998 INFO  org.example.managers.ConnectionManager 67 handleGetAllTripsRequest - Handling get all trips request
+09 May 2023 20:16:08,002 INFO  org.example.managers.ConnectionManager 70 handleGetAllTripsRequest - Found all trips
+09 May 2023 20:16:28,345 INFO  org.example.managers.ConnectionManager 91 handleAddReservationRequest - Handling add reservation request
+09 May 2023 20:16:28,349 INFO  org.example.repository.ReservationRepositoryDB 24 push - Trip added
+09 May 2023 20:16:28,356 INFO  org.example.managers.ConnectionManager 67 handleGetAllTripsRequest - Handling get all trips request
+09 May 2023 20:16:28,362 INFO  org.example.managers.ConnectionManager 70 handleGetAllTripsRequest - Found all trips
+09 May 2023 20:16:37,137 INFO  org.example.Main 43 main - Got a new client
+09 May 2023 20:16:44,030 INFO  org.example.managers.ConnectionManager 51 handleGetUserRequest - Handling get user request
+09 May 2023 20:16:44,036 INFO  org.example.managers.ConnectionManager 54 handleGetUserRequest - Found user: org.example.domain.User@516850e2
+09 May 2023 20:16:44,140 INFO  org.example.managers.ConnectionManager 67 handleGetAllTripsRequest - Handling get all trips request
+09 May 2023 20:16:44,145 INFO  org.example.managers.ConnectionManager 70 handleGetAllTripsRequest - Found all trips
+09 May 2023 20:17:07,233 INFO  org.example.managers.ConnectionManager 91 handleAddReservationRequest - Handling add reservation request
+09 May 2023 20:17:07,238 INFO  org.example.repository.ReservationRepositoryDB 24 push - Trip added
+09 May 2023 20:17:10,768 INFO  org.example.managers.ConnectionManager 91 handleAddReservationRequest - Handling add reservation request
+09 May 2023 20:17:10,776 INFO  org.example.repository.ReservationRepositoryDB 24 push - Trip added
+09 May 2023 20:17:41,205 INFO  org.example.managers.ConnectionManager 91 handleAddReservationRequest - Handling add reservation request
+09 May 2023 20:17:41,213 INFO  org.example.repository.ReservationRepositoryDB 24 push - Trip added
+09 May 2023 20:17:46,688 INFO  org.example.managers.ConnectionManager 91 handleAddReservationRequest - Handling add reservation request
+09 May 2023 20:17:46,695 INFO  org.example.repository.ReservationRepositoryDB 24 push - Trip added
+09 May 2023 20:17:54,537 INFO  org.example.managers.ConnectionManager 91 handleAddReservationRequest - Handling add reservation request
+09 May 2023 20:17:54,543 INFO  org.example.repository.ReservationRepositoryDB 24 push - Trip added
+09 May 2023 20:17:56,355 INFO  org.example.managers.ConnectionManager 91 handleAddReservationRequest - Handling add reservation request
+09 May 2023 20:17:56,361 INFO  org.example.repository.ReservationRepositoryDB 24 push - Trip added
+09 May 2023 20:17:56,518 INFO  org.example.managers.ConnectionManager 91 handleAddReservationRequest - Handling add reservation request
+09 May 2023 20:17:56,529 INFO  org.example.managers.ConnectionManager 97 handleAddReservationRequest - Could not add reservation, Invalid spots!
+09 May 2023 20:20:21,833 INFO  org.example.Main 24 main - Starting server!
+09 May 2023 20:20:21,942 INFO  org.example.Main 32 main - Connection established
+09 May 2023 20:20:26,410 INFO  org.example.Main 43 main - Got a new client
+09 May 2023 20:20:31,762 INFO  org.example.managers.ConnectionManager 51 handleGetUserRequest - Handling get user request
+09 May 2023 20:20:31,787 INFO  org.example.managers.ConnectionManager 54 handleGetUserRequest - Found user: org.example.domain.User@34f8da86
+09 May 2023 20:20:31,882 INFO  org.example.managers.ConnectionManager 67 handleGetAllTripsRequest - Handling get all trips request
+09 May 2023 20:20:31,889 INFO  org.example.managers.ConnectionManager 70 handleGetAllTripsRequest - Found all trips
+09 May 2023 20:21:16,370 INFO  org.example.managers.ConnectionManager 91 handleAddReservationRequest - Handling add reservation request
+09 May 2023 20:21:16,376 INFO  org.example.repository.ReservationRepositoryDB 24 push - Trip added
+09 May 2023 20:21:16,391 INFO  org.example.managers.ConnectionManager 67 handleGetAllTripsRequest - Handling get all trips request
+09 May 2023 20:21:16,397 INFO  org.example.managers.ConnectionManager 70 handleGetAllTripsRequest - Found all trips
+09 May 2023 20:23:56,295 INFO  org.example.Main 24 main - Starting server!
+09 May 2023 20:23:56,400 INFO  org.example.Main 32 main - Connection established
+09 May 2023 20:24:03,178 INFO  org.example.Main 24 main - Starting server!
+09 May 2023 20:24:03,294 INFO  org.example.Main 32 main - Connection established
+09 May 2023 20:24:04,927 INFO  org.example.Main 43 main - Got a new client
+09 May 2023 20:24:09,991 INFO  org.example.managers.ConnectionManager 51 handleGetUserRequest - Handling get user request
+09 May 2023 20:24:10,004 INFO  org.example.managers.ConnectionManager 54 handleGetUserRequest - Found user: org.example.domain.User@6286634f
+09 May 2023 20:24:10,088 INFO  org.example.managers.ConnectionManager 67 handleGetAllTripsRequest - Handling get all trips request
+09 May 2023 20:24:10,097 INFO  org.example.managers.ConnectionManager 70 handleGetAllTripsRequest - Found all trips
+09 May 2023 20:24:23,315 INFO  org.example.managers.ConnectionManager 91 handleAddReservationRequest - Handling add reservation request
+09 May 2023 20:24:23,322 INFO  org.example.repository.ReservationRepositoryDB 24 push - Trip added
+09 May 2023 20:25:45,251 INFO  org.example.Main 24 main - Starting server!
+09 May 2023 20:25:45,367 INFO  org.example.Main 32 main - Connection established
+09 May 2023 20:25:51,273 INFO  org.example.Main 43 main - Got a new client
+09 May 2023 20:25:55,792 INFO  org.example.managers.ConnectionManager 51 handleGetUserRequest - Handling get user request
+09 May 2023 20:25:55,803 INFO  org.example.managers.ConnectionManager 54 handleGetUserRequest - Found user: org.example.domain.User@34f8da86
+09 May 2023 20:25:55,894 INFO  org.example.managers.ConnectionManager 67 handleGetAllTripsRequest - Handling get all trips request
+09 May 2023 20:25:55,900 INFO  org.example.managers.ConnectionManager 70 handleGetAllTripsRequest - Found all trips
+09 May 2023 20:26:09,231 INFO  org.example.managers.ConnectionManager 91 handleAddReservationRequest - Handling add reservation request
+09 May 2023 20:26:09,239 INFO  org.example.repository.ReservationRepositoryDB 24 push - Trip added
+09 May 2023 20:26:15,377 INFO  org.example.managers.ConnectionManager 67 handleGetAllTripsRequest - Handling get all trips request
+09 May 2023 20:26:15,386 INFO  org.example.managers.ConnectionManager 70 handleGetAllTripsRequest - Found all trips
+09 May 2023 20:46:06,704 INFO  org.example.Main 24 main - Starting server!
+09 May 2023 20:46:06,822 INFO  org.example.Main 32 main - Connection established
+09 May 2023 20:46:12,173 INFO  org.example.Main 43 main - Got a new client
+09 May 2023 20:46:18,226 INFO  org.example.managers.ConnectionManager 51 handleGetUserRequest - Handling get user request
+09 May 2023 20:46:18,252 INFO  org.example.managers.ConnectionManager 54 handleGetUserRequest - Found user: org.example.domain.User@34f8da86
+09 May 2023 20:46:18,344 INFO  org.example.managers.ConnectionManager 67 handleGetAllTripsRequest - Handling get all trips request
+09 May 2023 20:46:18,352 INFO  org.example.managers.ConnectionManager 70 handleGetAllTripsRequest - Found all trips
+09 May 2023 20:46:30,557 INFO  org.example.managers.ConnectionManager 91 handleAddReservationRequest - Handling add reservation request
+09 May 2023 20:46:30,565 INFO  org.example.repository.ReservationRepositoryDB 24 push - Trip added
+09 May 2023 20:46:30,583 INFO  org.example.managers.ConnectionManager 67 handleGetAllTripsRequest - Handling get all trips request
+09 May 2023 20:46:30,588 INFO  org.example.managers.ConnectionManager 70 handleGetAllTripsRequest - Found all trips
+09 May 2023 20:46:39,624 INFO  org.example.Main 43 main - Got a new client
+09 May 2023 20:46:45,348 INFO  org.example.managers.ConnectionManager 51 handleGetUserRequest - Handling get user request
+09 May 2023 20:46:45,355 INFO  org.example.managers.ConnectionManager 54 handleGetUserRequest - Found user: org.example.domain.User@2d25543c
+09 May 2023 20:46:45,461 INFO  org.example.managers.ConnectionManager 67 handleGetAllTripsRequest - Handling get all trips request
+09 May 2023 20:46:45,465 INFO  org.example.managers.ConnectionManager 70 handleGetAllTripsRequest - Found all trips
+09 May 2023 20:47:06,931 INFO  org.example.managers.ConnectionManager 91 handleAddReservationRequest - Handling add reservation request
+09 May 2023 20:47:06,937 INFO  org.example.repository.ReservationRepositoryDB 24 push - Trip added
+09 May 2023 20:47:06,940 INFO  org.example.managers.ConnectionManager 67 handleGetAllTripsRequest - Handling get all trips request
+09 May 2023 20:47:06,943 INFO  org.example.managers.ConnectionManager 67 handleGetAllTripsRequest - Handling get all trips request
+09 May 2023 20:47:06,948 INFO  org.example.managers.ConnectionManager 70 handleGetAllTripsRequest - Found all trips
+09 May 2023 20:47:06,952 INFO  org.example.managers.ConnectionManager 70 handleGetAllTripsRequest - Found all trips
+10 May 2023 13:22:20,052 INFO  org.example.Main 24 main - Starting server!
+10 May 2023 13:22:20,219 INFO  org.example.Main 32 main - Connection established
+10 May 2023 13:22:25,313 INFO  org.example.Main 43 main - Got a new client
+10 May 2023 13:22:29,617 INFO  org.example.Main 43 main - Got a new client
+10 May 2023 13:22:36,705 INFO  org.example.managers.ConnectionManager 51 handleGetUserRequest - Handling get user request
+10 May 2023 13:22:36,729 INFO  org.example.managers.ConnectionManager 54 handleGetUserRequest - Found user: org.example.domain.User@34f8da86
+10 May 2023 13:22:36,857 INFO  org.example.managers.ConnectionManager 67 handleGetAllTripsRequest - Handling get all trips request
+10 May 2023 13:22:36,867 INFO  org.example.managers.ConnectionManager 70 handleGetAllTripsRequest - Found all trips
+10 May 2023 13:22:42,066 INFO  org.example.managers.ConnectionManager 51 handleGetUserRequest - Handling get user request
+10 May 2023 13:22:42,070 INFO  org.example.managers.ConnectionManager 54 handleGetUserRequest - Found user: org.example.domain.User@70d2b35
+10 May 2023 13:22:42,196 INFO  org.example.managers.ConnectionManager 67 handleGetAllTripsRequest - Handling get all trips request
+10 May 2023 13:22:42,201 INFO  org.example.managers.ConnectionManager 70 handleGetAllTripsRequest - Found all trips
+10 May 2023 13:22:57,956 INFO  org.example.managers.ConnectionManager 91 handleAddReservationRequest - Handling add reservation request
+10 May 2023 13:22:57,962 INFO  org.example.repository.ReservationRepositoryDB 24 push - Trip added
+10 May 2023 13:22:57,976 INFO  org.example.managers.ConnectionManager 67 handleGetAllTripsRequest - Handling get all trips request
+10 May 2023 13:22:57,976 INFO  org.example.managers.ConnectionManager 67 handleGetAllTripsRequest - Handling get all trips request
+10 May 2023 13:22:57,982 INFO  org.example.managers.ConnectionManager 70 handleGetAllTripsRequest - Found all trips
+10 May 2023 13:22:57,983 INFO  org.example.managers.ConnectionManager 70 handleGetAllTripsRequest - Found all trips

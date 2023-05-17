@@ -8,6 +8,16 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/client" />
+            <option value="$PROJECT_DIR$/client_gui" />
+            <option value="$PROJECT_DIR$/domain" />
+            <option value="$PROJECT_DIR$/proxies" />
+            <option value="$PROJECT_DIR$/repositories" />
+            <option value="$PROJECT_DIR$/repository" />
+            <option value="$PROJECT_DIR$/server" />
+            <option value="$PROJECT_DIR$/service" />
+            <option value="$PROJECT_DIR$/services" />
+            <option value="$PROJECT_DIR$/utils" />
           </set>
         </option>
       </GradleProjectSettings>

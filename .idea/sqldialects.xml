@@ -2,7 +2,7 @@
 <project version="4">
   <component name="SqlDialectMappings">
     <file url="file://$PROJECT_DIR$/db.sql" dialect="PostgreSQL" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/example/mpp/repository/ReservationRepositoryDB.java" dialect="PostgreSQL" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/example/mpp/repository/UserRepositoryDB.java" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/repositories/src/main/java/com/example/repository/ReservationRepositoryDB.java" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/repositories/src/main/java/com/example/repository/UserRepositoryDB.java" dialect="PostgreSQL" />
   </component>
 </project>

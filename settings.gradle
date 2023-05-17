@@ -1,1 +1,9 @@
-rootProject.name = "demo"
+rootProject.name = 'untitled1'
+include 'domain'
+include 'repositories'
+include 'services'
+include 'utils'
+include 'client_gui'
+include 'server'
+include 'proxies'
+
